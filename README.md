@@ -1,2 +1,2 @@
-# Galeria-Imagenes
-Galeria de Imagenes con NodeJs, Mongo DB y Cloudinary
+# Galería-Imágenes
+Galería de Imágenes con NodeJs, Mongo DB y Cloudinary
