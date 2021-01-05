@@ -1,0 +1,35 @@
+{
+  "name": "GaleriaImagenes",
+  "version": "1.0.0",
+  "description": "Galería de Imágenes con NodeJs, Mongo DB y Cloudinary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emasesosos/Galeria-Imagenes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emasesosos/Galeria-Imagenes/issues"
+  },
+  "homepage": "https://github.com/Emasesosos/Galeria-Imagenes#readme",
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.11.10",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
