@@ -6,6 +6,7 @@ const exphbs = require('express-handlebars'); // Permite traer handlebars para e
 
 // Initializations
 const app = express();
+require('./database');
 
 // Settings
 app.set('port', 3000);
