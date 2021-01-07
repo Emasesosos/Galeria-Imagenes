@@ -9,7 +9,7 @@ const app = express();
 require('./database');
 
 // Settings
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views')); // Apunta a la carpeta 'views'
 app.engine('.hbs', exphbs({ // Configuración de motor de plantillas
     defaultLayout: 'main',
